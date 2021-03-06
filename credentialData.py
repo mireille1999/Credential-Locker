@@ -1,5 +1,5 @@
 
-class CredentialsData:
+class CredentialData:
 
     """
     create new instances
@@ -18,7 +18,7 @@ class CredentialsData:
         """
         save credential objects to the credential list
         """
-        CredentialsData.credentials.append(self)
+        CredentialData.credentials.append(self)
 
     @classmethod
 

@@ -1,6 +1,6 @@
 import unittest
 
-from credentialsData import CredentialsData
+from credentialData import CredentialData
 
 
 class TestCredentials(unittest.TestCase):
@@ -8,7 +8,7 @@ class TestCredentials(unittest.TestCase):
         """
         setUp method
         """
-        self.new_credential = CredentialsData("Gmail", "cliff", "lolololo") 
+        self.new_credential = CredentialData("Gmail", "cliff", "lolololo") 
 
     def test_init(self):
         """
@@ -20,20 +20,20 @@ class TestCredentials(unittest.TestCase):
 
     def tearDown(self):
     
-        CredentialsData.credentials = []
+        CredentialData.credentials = []
 
     def test_save_credential(self):
         """
         test if credential is saved in the credentials list
         """
         self.new_credential.save_credential()  
-        self.assertEqual(len(CredentialsData.credentials), 1)
+        self.assertEqual(len(CredentialData.credentials), 1)
 
     def test_display_credentials(self):
         """
         test display credentials method
         """
-        self.assertEqual(CredentialsData.display_credentials(),CredentialsData.credentials)
+        self.assertEqual(CredentialData.display_credentials(),CredentialData.credentials)
 
 if __name__ == '__main__':
     unittest.main()
