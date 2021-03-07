@@ -70,7 +70,7 @@ def delete_credentials(credential):
 
 def main():
     print("\n")
-    print("Welcome to Password Locker")
+    print("Welcome to Credential Locker")
     print("This will store your credentails and generate a password for you")
 
     while True:
@@ -120,10 +120,10 @@ def main():
             sign_in = check_user(username, password)
             if sign_in == True:
                 break
-            print("Please sign up to access password locker.\n")
+            print("Please sign up to access Credential locker.\n")
 
         else:
-            print("Try the choices above")
+            print("Try the  above choices ")
 
     while True:
         print(f"Type create to add a credential, saved to see the saved credentials or exit to stop adding credentials.")
@@ -174,7 +174,7 @@ def main():
         elif credentials2 == 'exit':
                     break
         else:
-            print("Sorry, try again.")
+            print("Oups! Sorry, try again.")
             print('\n')
 
 

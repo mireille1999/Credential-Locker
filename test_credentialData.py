@@ -8,15 +8,15 @@ class TestCredentials(unittest.TestCase):
         """
         setUp method
         """
-        self.new_credential = CredentialData("Gmail", "cliff", "lolololo") 
+        self.new_credential = CredentialData("Instagram", "mimi", "mireille") 
 
     def test_init(self):
         """
         testing initialization
         """
-        self.assertEqual(self.new_credential.platform, "Gmail")
-        self.assertEqual(self.new_credential.username, "cliff")
-        self.assertEqual(self.new_credential.password, "lolololo")
+        self.assertEqual(self.new_credential.platform, "Instagram")
+        self.assertEqual(self.new_credential.username, "mimi")
+        self.assertEqual(self.new_credential.password, "mireille")
 
     def tearDown(self):
     
