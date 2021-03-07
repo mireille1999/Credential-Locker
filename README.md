@@ -25,7 +25,6 @@ As a user I would like:
 * Store my existing login credentials
 * Generate a password for a new credential/account
 
-## SetUp / Installation Requirements
 ### Prerequisites
 * python3.6
 
