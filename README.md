@@ -31,7 +31,7 @@ As a user I would like:
 ### Cloning
 * In your terminal:
         
-        $ git clone https://github.com/Aimee-pacy/Locker
+        $ git clone https://github.com/mireille1999/Credential-Locker
         $ cd Locker
 
 ## Running the Application
