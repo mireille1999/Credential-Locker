@@ -32,7 +32,7 @@ As a user I would like:
 * In your terminal:
         
         $ git clone https://github.com/mireille1999/Credential-Locker
-        $ cd Locker
+        $ cd Credential-Locker
 
 ## Running the Application
 * To run the application, in your terminal:
