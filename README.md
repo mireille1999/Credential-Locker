@@ -6,13 +6,6 @@ Mireille Muhawenimana
 ## Description
 Credential Locker is a terminal run python application that allows users to store details such as usernames and passwords of their various accounts.
 
-## User Stories
-
-As a user I would like:
-* To create an account with my details - log in and password
-* Store my existing login credentials
-* Generate a password for a new credential/account
-
 ## Specifications
 * Display codes for navigation
 * Display prompt for creating an account
@@ -23,6 +16,14 @@ As a user I would like:
 * Enter the site name, your username and password 
 * Display a list of credentials 
 * Exit application
+
+
+## User Stories
+
+As a user I would like:
+* To create an account with my details - log in and password
+* Store my existing login credentials
+* Generate a password for a new credential/account
 
 ## SetUp / Installation Requirements
 ### Prerequisites
