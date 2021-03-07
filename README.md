@@ -37,7 +37,7 @@ As a user I would like:
 ## Running the Application
 * To run the application, in your terminal:
 
-        $ chmod +x Locker.py
+        $ chmod +x Credential-Locker.py
         $ ./passwordLocker.py
         
 ## Testing the Application
