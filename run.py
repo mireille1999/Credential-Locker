@@ -60,7 +60,7 @@ def display_credential():
     """
     returns the saved credential
     """
-    return CredentialsData.display_credentials()
+    return CredentialData.display_credentials()
 
 def delete_credentials(credential):
     """
@@ -150,6 +150,7 @@ def main():
                     print('\n')
                     break
                 else:
+                    print("Type create or 'genera
                     print("Type create or 'generate")
                     break
 

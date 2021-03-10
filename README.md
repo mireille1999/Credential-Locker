@@ -43,8 +43,7 @@ As a user I would like:
 ## Running the Application
 * To run the application, in your terminal:
 
-        $ chmod +x Credential-Locker.py
-        $ ./passwordLocker.py
+        $ python3.6 run.py
                
 ## Technologies Used
 * Python3.6
